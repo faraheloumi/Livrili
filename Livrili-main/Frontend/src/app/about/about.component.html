@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <div class="row">
+      <!-- Description Section -->
+      <div class="col-md-6 bg-gradient-primary text-white">
+        <div class="about-description text-center p-4">
+          <h1 class="font-weight-bold mb-4">Our Services</h1>
+          <p class="sec font-weight-bold">
+            Gone are the days of placing separate orders from different vendors and waiting for each one to arrive. With us, you can streamline your shopping experience and enjoy the ease of receiving everything you need in one convenient delivery. Whether you're craving items from your favorite local eateries, seeking essentials from top brands, or indulging in specialty goods, we've got you covered.
+          </p>
+        </div>
+      </div>
+      <!-- Categories Section -->
+      <div class="col-md-6 bg-light bg">
+        <div class="about-categories p-4 overflow-auto" style="max-height: 400px;">
+          <h1 class="text-center mb-4">Categories</h1>
+          <div id="carouselCategories" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12 mb-4" *ngFor="let service of services; let i = index;">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <img class="mb-2 service-image" [src]="service.icon" alt="Service Icon">
+                        <br/>{{ service.name }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselCategories" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselCategories" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

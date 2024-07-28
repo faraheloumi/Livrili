@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Base styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header styles */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #031b48;
+  margin-bottom: 2rem;
+}
+
+/* Table styles */
+.table {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e3e1f8; /* Lighter shade for better readability */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #d7d5f0; /* Subtle hover effect */
+}
+
+.table td, .table th {
+  vertical-align: middle;
+  border-top: 1px solid #ddd; /* Add a top border to each cell */
+  padding: 0.75rem; /* Increase padding */
+}
+
+/* Icon styles */
+.mat-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: #3223a4; /* Matching the primary color */
+}
+
+.mat-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .table {
+    font-size: 0.8rem; /* Smaller font size on smaller screens */
+  }
+}
+
+/* Chat button styles */
+[routerLink] .mat-icon {
+  background-color: #3223a4;
+  color: white;
+  border-radius: 50%;
+  padding: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+[routerLink] .mat-icon:hover {
+  background-color: #4b39b2;
+}
+
+/* Add more specific styles as needed... */
+
+h1{    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;}
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #3223a4;
+      }
+      
+      .table-hover tbody tr:hover {
+        background-color: #f5f5f5;
+      }
+      
+      .table td, .table th {
+        vertical-align: middle;
+      }
+      
+      .mat-icon {
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      
+      .mat-icon:hover {
+        color: #031b48;
+      }
+      
+      /* Animation pour le déroulement des sections */
+      .toggle-animate {
+        transition: max-height 0.5s ease-in-out;
+        overflow: hidden;
+      }
+
+      /* Styles pour les badges de statut */
+.badge-status {
+    padding: 0.25em 0.5em;
+    font-size: 75%;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    color: white;
+    align-self: center;
+  }
+  .badge-status.completed {
+    background-color: #28a745;
+  }
+  .badge-status.pending {
+    background-color: #ffc107;
+  }
+  .badge-status.cancelled {
+    background-color: #dc3545;
+  }
+  
+  /* Styles pour les tooltips */
+  .tooltip-inner {
+    background-color: #555; /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  /* Styles pour les cartes */
+  .card {
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Styles pour les accordéons */
+  .accordion-button {
+    background-color: #eee;
+    color: #444;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: #f7f7f7;
+    color: #031b48;
+  }
+  
+  /* Styles pour les graphiques */
+  .sparkline {
+    width: 100px;
+    height: 30px;
+  }
+  
+  /* Responsive table */
+  @media (max-width: 768px) {
+    .table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive > .table tr {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .table-responsive > .table thead,
+    .table-responsive > .table tbody,
+    .table-responsive > .table th,
+    .table-responsive > .table td,
+    .table-responsive > .table tr {
+      display: block;
+    }
+  }
+  
+      
+
+      
+
+   

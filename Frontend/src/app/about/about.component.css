@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.bg-gradient-primary {
+    background: linear-gradient(to right, #5784BA, rgba(123, 172, 231, 0.745));
+  }
+  .bg {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212112;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 7%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: all 200ms linear;
+
+  }
+  .about-description h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .about-categories h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #5784BA;
+  }
+  
+  
+  .about-description p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-style: italic;
+    
+  }
+  
+  .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    background: linear-gradient(to right, #5784BA, rgba(123, 172, 231, 0.745));
+  }
+  
+  .carousel-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: auto;
+    bottom: 20px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    transform: rotate(90deg);
+  }
+  .service-image {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .about-description {
+    margin-top: 60px;
+    margin-bottom:60px ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about-categories {
+    margin-top: 60px;
+    margin-bottom:60px ;
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .sec{
+  color:   #1c2a3b;
+  }
