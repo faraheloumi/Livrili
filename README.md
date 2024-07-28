@@ -28,4 +28,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Change directory (cd ) to Server folder and :
   -Choose the Spring Boot Application file (search for @SpringBootApplication)
   -Right Click on the file and Run as Java Application
-### You are all Set
+## Contact
+
+Farah Elloumi- [@Farah Elloumi][linkedin-url] - farah.elloumi@supcom.tn <br/>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/farah-elloumi-735ab1269/
+
